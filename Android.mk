@@ -27,8 +27,6 @@ $(call add-radio-file-sha1-checked,radio/tzsw.img_SM-M336B,dc0ce8ff92d2aeadf0fd2
 $(call add-radio-file-sha1-checked,radio/tzsw.img_SM-M336K,589aad9d7541128b0eeca1af35df82769d741c61)
 $(call add-radio-file-sha1-checked,radio/uh.bin_SM-M336B,db8ccbb4c5dcd4f5596ae51ff91084c324a2e3b3)
 $(call add-radio-file-sha1-checked,radio/uh.bin_SM-M336K,33dc7961855c534306e474b675b3d626083be8cf)
-$(call add-radio-file-sha1-checked,radio/up_param.bin_SM-M336B,a422139c35ae686ed0da1bfe470d76f8a614447d)
-$(call add-radio-file-sha1-checked,radio/up_param.bin_SM-M336K,4f5924837d19744cb07694190499f3a4697b545d)
 $(call add-radio-file-sha1-checked,radio/version_SM-M336B,79ec17a15cc6bcb4ebf7b647fb3da996c293ae2d)
 $(call add-radio-file-sha1-checked,radio/version_SM-M336K,c251bddcc5ecb63dcc170d1eb2dede6d6876e232)
 
