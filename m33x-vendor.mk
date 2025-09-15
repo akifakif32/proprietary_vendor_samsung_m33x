@@ -21,6 +21,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m33x/proprietary/vendor/etc/wifi/mx140_wlan_t_sw.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_wlan_t_sw.hcf \
     vendor/samsung/m33x/proprietary/vendor/etc/wifi/slsi_reg_database.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/slsi_reg_database.bin \
     vendor/samsung/m33x/proprietary/vendor/firmware/APBargeIn_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/APBargeIn_AUDIO_SLSI.bin \
+    vendor/samsung/m33x/proprietary/vendor/firmware/APBiBF_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/APBiBF_AUDIO_SLSI.bin \
     vendor/samsung/m33x/proprietary/vendor/firmware/SM-M336B/APDV_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/SM-M336B/APDV_AUDIO_SLSI.bin \
     vendor/samsung/m33x/proprietary/vendor/firmware/SM-M336B/AP_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/SM-M336B/AP_AUDIO_SLSI.bin \
     vendor/samsung/m33x/proprietary/vendor/firmware/SM-M336B/NPU.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/SM-M336B/NPU.bin \
