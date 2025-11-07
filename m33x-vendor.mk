@@ -12,15 +12,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m33x/proprietary/recovery/root/vendor/firmware/nt36672_m33x_tianma_mp.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/nt36672_m33x_tianma_mp.bin \
     vendor/samsung/m33x/proprietary/vendor/etc/floating_feature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/floating_feature.xml \
     vendor/samsung/m33x/proprietary/vendor/etc/init/nxp.android.hardware.nfc@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/nxp.android.hardware.nfc@1.2-service.rc \
-    vendor/samsung/m33x/proprietary/vendor/etc/wifi/mx140_bt.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_bt.hcf \
-    vendor/samsung/m33x/proprietary/vendor/etc/wifi/mx140_common.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_common.hcf \
-    vendor/samsung/m33x/proprietary/vendor/etc/wifi/mx140_t_wlan.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t_wlan.hcf \
-    vendor/samsung/m33x/proprietary/vendor/etc/wifi/mx140_t_wlan_t.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t_wlan_t.hcf \
-    vendor/samsung/m33x/proprietary/vendor/etc/wifi/mx140_wlan.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_wlan.hcf \
-    vendor/samsung/m33x/proprietary/vendor/etc/wifi/mx140_wlan_sw.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_wlan_sw.hcf \
-    vendor/samsung/m33x/proprietary/vendor/etc/wifi/mx140_wlan_t.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_wlan_t.hcf \
-    vendor/samsung/m33x/proprietary/vendor/etc/wifi/mx140_wlan_t_sw.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_wlan_t_sw.hcf \
-    vendor/samsung/m33x/proprietary/vendor/etc/wifi/slsi_reg_database.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/slsi_reg_database.bin \
     vendor/samsung/m33x/proprietary/vendor/firmware/APBargeIn_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/APBargeIn_AUDIO_SLSI.bin \
     vendor/samsung/m33x/proprietary/vendor/firmware/APBiBF_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/APBiBF_AUDIO_SLSI.bin \
     vendor/samsung/m33x/proprietary/vendor/firmware/APDV_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/APDV_AUDIO_SLSI.bin \
@@ -83,6 +74,15 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m33x/proprietary/vendor/firmware/txse1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/txse1.bin \
     vendor/samsung/m33x/proprietary/vendor/firmware/txse2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/txse2.bin \
     vendor/samsung/m33x/proprietary/vendor/firmware/vts.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vts.bin \
+    vendor/samsung/m33x/proprietary/vendor/firmware/wifi/mx140_bt.hcf:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi/mx140_bt.hcf \
+    vendor/samsung/m33x/proprietary/vendor/firmware/wifi/mx140_common.hcf:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi/mx140_common.hcf \
+    vendor/samsung/m33x/proprietary/vendor/firmware/wifi/mx140_t_wlan.hcf:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi/mx140_t_wlan.hcf \
+    vendor/samsung/m33x/proprietary/vendor/firmware/wifi/mx140_t_wlan_t.hcf:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi/mx140_t_wlan_t.hcf \
+    vendor/samsung/m33x/proprietary/vendor/firmware/wifi/mx140_wlan.hcf:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi/mx140_wlan.hcf \
+    vendor/samsung/m33x/proprietary/vendor/firmware/wifi/mx140_wlan_sw.hcf:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi/mx140_wlan_sw.hcf \
+    vendor/samsung/m33x/proprietary/vendor/firmware/wifi/mx140_wlan_t.hcf:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi/mx140_wlan_t.hcf \
+    vendor/samsung/m33x/proprietary/vendor/firmware/wifi/mx140_wlan_t_sw.hcf:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi/mx140_wlan_t_sw.hcf \
+    vendor/samsung/m33x/proprietary/vendor/firmware/wifi/slsi_reg_database.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi/slsi_reg_database.bin \
     vendor/samsung/m33x/proprietary/vendor/tee/SM-M336B/00000000-0000-0000-0000-000000010081:$(TARGET_COPY_OUT_VENDOR)/tee/SM-M336B/00000000-0000-0000-0000-000000010081 \
     vendor/samsung/m33x/proprietary/vendor/tee/SM-M336B/00000000-0000-0000-0000-000000020081:$(TARGET_COPY_OUT_VENDOR)/tee/SM-M336B/00000000-0000-0000-0000-000000020081 \
     vendor/samsung/m33x/proprietary/vendor/tee/SM-M336B/00000000-0000-0000-0000-000000534b4d:$(TARGET_COPY_OUT_VENDOR)/tee/SM-M336B/00000000-0000-0000-0000-000000534b4d \
