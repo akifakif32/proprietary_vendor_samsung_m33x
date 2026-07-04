@@ -10,6 +10,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m33x/proprietary/recovery/root/vendor/firmware/nt36672_m33x_csot_mp.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/nt36672_m33x_csot_mp.bin \
     vendor/samsung/m33x/proprietary/recovery/root/vendor/firmware/nt36672_m33x_tianma.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/nt36672_m33x_tianma.bin \
     vendor/samsung/m33x/proprietary/recovery/root/vendor/firmware/nt36672_m33x_tianma_mp.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/nt36672_m33x_tianma_mp.bin \
+    vendor/samsung/m33x/proprietary/vendor/etc/SoundBoosterParam.txt:$(TARGET_COPY_OUT_VENDOR)/etc/SoundBoosterParam.txt \
     vendor/samsung/m33x/proprietary/vendor/etc/floating_feature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/floating_feature.xml \
     vendor/samsung/m33x/proprietary/vendor/etc/init/nxp.android.hardware.nfc@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/nxp.android.hardware.nfc@1.2-service.rc \
     vendor/samsung/m33x/proprietary/vendor/firmware/APBargeIn_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/APBargeIn_AUDIO_SLSI.bin \
@@ -196,6 +197,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     camera.s5e8825 \
     libMERTA \
+    lib_SoundAlive_play_plus_ver400 \
+    lib_SoundBooster_ver1100 \
     libbauthserver \
     libbauthtzcommon \
     libexynoscamera3 \
@@ -206,6 +209,8 @@ PRODUCT_PACKAGES += \
     libsec2lsi_conversion \
     libswlme \
     nfc_nci_nxpsn \
+    libaudiosaplus_sec \
+    libsamsungSoundbooster_plus \
     vendor.samsung.hardware.nfc@2.0 \
     nxp.android.hardware.nfc@1.2-service.xml \
     nxp.android.hardware.nfc@1.2-service
